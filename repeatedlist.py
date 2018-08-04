@@ -1,17 +1,17 @@
 a=input()
 n1=0
-w=0
+n2=0
 new=[]
-list=[int(x) for x in input().split()]
-s=0
+o_list=[int(x) for x in input().split()]
+s=len(o_list)
 while(n1==0):
-    l=list[n1]
-    list.remove(list[0])
-    if((l in list)and(l not in new)):
+    l=o_list[n1]
+    o_list.remove(o_list[0])
+    if((l in o_list)and(l not in new)):
         print(l,end=" ")
-        new.insert(w,l)
-        w+=1
-    elif((list==new) and (l not in new) and (s==len(new))):
+        new.insert(n2,l)
+        n2+=1
+    elif((o_list==new) and (l not in new) and (s==len(new))):
         print('unique')
-    if(list==[]):
+    if(o_list==[]):
         break
