@@ -11,7 +11,7 @@ while(q==0):
         print l,
         new.insert(w,l)
         w+=1
-    elif((list==new)and(l not in new)and(c==len(new)):
+    elif((list==new)and(l not in new)and(c==len(new))):
         print('unique')
     else:
         q=0
