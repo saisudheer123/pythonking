@@ -1,0 +1,2 @@
+nul=input()
+print(nul+'.')
