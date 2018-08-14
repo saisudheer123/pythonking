@@ -1,2 +1,3 @@
 nom=input()
-print(len(nom))
+nol=nom.replace(" ","")
+print(len(nol))
